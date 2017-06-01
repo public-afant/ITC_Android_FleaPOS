@@ -1,0 +1,102 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="재고 : "
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/Grid_ItemSal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="ssssss"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+        <TextView
+        android:id="@+id/Grid_ItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+            android:text="ttttt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+                android:id="@+id/Grid_ItemStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+            android:text="sss"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+        <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/count_Minus"
+                android:text="-"
+            android:textSize="20dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Grid_ItemCount"
+            android:layout_toStartOf="@+id/Grid_ItemCount" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/count_Plus"
+            android:text="+"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/count_Minus"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="가격 : "
+            android:textSize="20dp"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/Grid_ItemName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/Grid_ItemCount"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/count_Plus"
+            android:layout_toStartOf="@+id/count_Plus" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
