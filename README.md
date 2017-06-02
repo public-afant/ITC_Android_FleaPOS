@@ -26,14 +26,14 @@
 + 구글 애드몹 광고
 
 <img src = './image/Flea_Pos_Need_Tree.png' width = '70%' />
-+ 시스템 요구사항 구조화
+- 시스템 요구사항 구조화
 
 <img src = './image/Flea_Pos_Mock.png' width = '70%' />
-+ 사용자 인터페이스 설계
+- 사용자 인터페이스 설계
 
 <img src = './image/Flea_Pos_ERD.png' width = '70%' />
-+ Database 설계
+- Database 설계
 
 <img src = './image/Flea_Pos_Logo.png' width = '10%' /><img src = './image/Flea_Pos_UI.png' width = '70%' />
-+ 앱 로고 및 구현
+- 앱 로고 및 구현
 
