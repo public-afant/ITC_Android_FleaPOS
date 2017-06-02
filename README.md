@@ -26,3 +26,5 @@
 + 구글 애드몹 광고
 
 ![Flea_Pos_Need_Tree](./image/Flea_Pos_Need_Tree.png)
+
+<img src = './image/Flea_Pos_Mock.png' width = '20%' />
