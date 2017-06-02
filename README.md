@@ -17,7 +17,7 @@
 + 개인 매장을 운영하지 않는 길거리 혹은 부스에서 물품 판매 시 정산의 편의성 제공
 
 ## 구현
-
+<img src = './image/Flea_Pos_Logo.png' width = '20%' >Logo</img>
 ### 기능
 + 당일 부스 생성과 판매 물품 등록 - 실시간 판매
 + 하루 총 수입 정산
@@ -25,6 +25,8 @@
 + Data Export
 + 구글 애드몹 광고
 
-![Flea_Pos_Need_Tree](./image/Flea_Pos_Need_Tree.png)
+<img src = './image/Flea_Pos_Need_Tree.png' width = '50%' />
+<img src = './image/Flea_Pos_Mock.png' width = '50%' />
+<img src = './image/Flea_Pos_ERD.png' width = '50%' />
+<img src = './image/Flea_Pos_UI.png' width = '50%' />
 
-<img src = './image/Flea_Pos_Mock.png' width = '20%' />
